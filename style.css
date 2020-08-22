@@ -1,0 +1,75 @@
+html, body{
+    padding: 0;
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#e8e8e8;
+}
+.wrapper{
+    width:843px;
+    margin:0 auto;
+    margin-top:163px;
+}
+#head-title{
+    text-align: center;
+    color:#273d46;
+    font-size: 14px;
+}
+h1{
+    color:#273d46;
+    text-align: center;
+    font-size: 36px;
+}
+.wrapper img{
+    border: 10px solid #fff;
+    margin-bottom:63px;
+}
+.description p{
+    color:#273d46;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.list{
+    margin-top:49px;
+}
+.list ul{
+    padding:0;
+}
+.list li{
+    font-size: 20px;
+    font-family: Arial;
+    background: url(img/tick.png) left 1px no-repeat;
+    padding-left:30px;
+    list-style: none;
+}
+#list-color{
+    color:#273d46;
+}
+#list-description{
+    color:#80b7b3;
+}
+#list-bold{
+    font-weight: bold;
+    color:#273d46;
+}
+#list-through{
+    color:#273d46;
+    text-decoration: line-through;
+}
+#fullStory{
+    margin-top: 39px;
+    margin-bottom: 100px;
+    display:block;
+    width:199px;
+    height:47px;
+    text-align: center;
+    line-height: 47px;
+    color:#fff;
+    font-size: 14px;
+    font-family: Arial;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius:30px;
+    background:url("img/arrow.png") 180px 15px no-repeat #80b7b3;
+    padding-right:27px;
+}
